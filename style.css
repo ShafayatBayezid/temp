@@ -415,7 +415,13 @@ section.footer-area-wrapper ul li a:focus {
   .header-area-wrapper .main-menu-area div:first-child{
     display: none;
   }
-
+  .mobile-menu-container,
+  #mobile-menu {
+      width: 100%;
+      display: block;
+      padding: 0;
+  }
+  
   .mobile-menu {
     height: 28px;
     width: 32px;
@@ -439,7 +445,6 @@ section.footer-area-wrapper ul li a:focus {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 20px;
     padding-top: 30px;
     position: fixed;
     height: 100%;
@@ -456,7 +461,9 @@ section.footer-area-wrapper ul li a:focus {
     max-width: 100%;
     right: -100%;
   }
-
+  .off-canvas-menu ul li{
+    text-align: center;
+}
   .off-canvas-menu ul a {
     color: #fdbe00;
     font-weight: 700;
